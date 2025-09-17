@@ -20,7 +20,7 @@ An interactive Streamlit app is included to:
 - Display dynamic charts and tables
 - Experiment with custom scenarios and parameters
 
-To run the app:
+To run the app locally:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
