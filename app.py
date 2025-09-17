@@ -25,7 +25,7 @@ if data_source == "Example Stock Price data":
         prices_df = pd.read_csv(f"data/{stock_selection}.csv", parse_dates=True, index_col=0)
 elif data_source == "Upload CSV":
     uploaded_file = st.sidebar.file_uploader("Upload CSV File", type=["csv"])
-    st.sidebar.text("Note: makesure your format is correct or you can see and download the correct format in options of Example Stock Price data")
+    st.sidebar.text("Note: Please ensure your format is correct or you can see and download the correct format in options of Example Stock Price data")
     if uploaded_file is not None:
         prices_df = pd.read_csv(uploaded_file, parse_dates=True, index_col=0)
 elif data_source == "API":
@@ -131,6 +131,7 @@ if prices_df is not None and not prices_df.empty:
 
 else:
     st.error("Failed to load data or no data available for the selected range.")
+
 
 
 
