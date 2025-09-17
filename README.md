@@ -3,6 +3,7 @@
 This project analyzes **Value at Risk (VaR)** and **Expected Shortfall (ES)** in the U.S. stock market using Python and provides an interactive Streamlit app for visualization and exploration.
 
 # 🔗 Streamlit App
+https://analysisofvar-esinusstockmarket-aguwj6dzqxusyjzkqroywv.streamlit.app/
 
 
 ## 🏷️ Topic
@@ -67,9 +68,8 @@ _Note: Actual file names and structure may vary. Update as needed for your repo.
 
 ## 📚 References
 
-- [Streamlit Documentation](https://docs.streamlit.io/)
 - [VaR and ES Concepts – Investopedia](https://www.investopedia.com/terms/v/valueatrisk.asp)
-- [U.S. Stock Market Datasets – Yahoo Finance](https://finance.yahoo.com/)
+- [U.S. Stock Market Datasets – Alphavantage](https://www.alphavantage.co/documentation/)
 
 ---
 
